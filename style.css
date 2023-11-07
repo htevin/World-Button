@@ -1,0 +1,50 @@
+body{
+    display: flex;
+      justify-content: center; 
+      align-items: center; 
+      height: 100vh; 
+      margin: 0;
+      flex-direction: column;
+}
+.cool-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #db5b34; 
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    text-decoration: none;
+  }
+
+  .cool-button:hover {
+    background-color: #db5b34; 
+    transform: rotate(10deg); 
+  }
+
+  .cool-button.clicked {
+    animation: moveButton 0.5s ease;
+  }
+
+  @keyframes moveButton {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(5px, -5px);
+    }
+    50% {
+      transform: translate(0, 0);
+    }
+    75% {
+      transform: translate(-5px, 5px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  #word{
+    font-size: 50px;
+  }
