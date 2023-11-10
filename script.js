@@ -5,7 +5,6 @@ const words = [
   "Magic",
   "Crazy",
   "Sad",
-  "Scary",
   "Old",
   "Sleepy",
   "Enchanting",
