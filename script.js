@@ -4,8 +4,6 @@ const button = document.querySelector(".cool-button");
 const words = [
   "Magic",
   "Crazy",
-  "Sad",
-  "Old",
   "Sleepy",
   "Enchanting",
   "Eccentric",
