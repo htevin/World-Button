@@ -8,7 +8,6 @@ const words = [
   "Enchanting",
   "Eccentric",
   "Melancholy",
-  "Terrifying",
   "Ancient",
   "Drowsy",
   "Mystical",
